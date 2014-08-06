@@ -25,7 +25,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var url = NSURL(string:"http://google.com")
+        var path = NSBundle.mainBundle().pathForResource("index", ofType: "html")
+        
+        var url = NSURL.fileURLWithPath(path)
         var req = NSURLRequest(URL:url)
         self.webView!.loadRequest(req)
     }

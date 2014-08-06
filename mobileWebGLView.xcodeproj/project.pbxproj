@@ -12,6 +12,7 @@
 		7B6FADBD1991CA1400C5A913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FADBB1991CA1400C5A913 /* Main.storyboard */; };
 		7B6FADBF1991CA1400C5A913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FADBE1991CA1400C5A913 /* Images.xcassets */; };
 		7B6FADCB1991CA1400C5A913 /* mobileWebGLViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FADCA1991CA1400C5A913 /* mobileWebGLViewTests.swift */; };
+		7B6FADD91991E13600C5A913 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FADD81991E13600C5A913 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7B6FADC41991CA1400C5A913 /* mobileWebGLViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileWebGLViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6FADC91991CA1400C5A913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6FADCA1991CA1400C5A913 /* mobileWebGLViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileWebGLViewTests.swift; sourceTree = "<group>"; };
+		7B6FADD81991E13600C5A913 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		7B6FADB41991CA1400C5A913 /* mobileWebGLView */ = {
 			isa = PBXGroup;
 			children = (
+				7B6FADD71991E13600C5A913 /* Resources */,
 				7B6FADB71991CA1400C5A913 /* AppDelegate.swift */,
 				7B6FADB91991CA1400C5A913 /* ViewController.swift */,
 				7B6FADBB1991CA1400C5A913 /* Main.storyboard */,
@@ -107,6 +110,14 @@
 				7B6FADC91991CA1400C5A913 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6FADD71991E13600C5A913 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FADD81991E13600C5A913 /* index.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6FADD91991E13600C5A913 /* index.html in Resources */,
 				7B6FADBD1991CA1400C5A913 /* Main.storyboard in Resources */,
 				7B6FADBF1991CA1400C5A913 /* Images.xcassets in Resources */,
 			);
