@@ -25,9 +25,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var path = NSBundle.mainBundle().pathForResource("index", ofType: "html")
+        // this is how you load a pre packaged html file
+        //var path = NSBundle.mainBundle().pathForResource("index", ofType: "html")
         
-        var url = NSURL.fileURLWithPath(path)
+        var url = NSURL(string: "https://www.cubeslam.com/tsgwok")
         var req = NSURLRequest(URL:url)
         self.webView!.loadRequest(req)
     }
