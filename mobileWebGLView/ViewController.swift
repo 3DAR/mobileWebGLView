@@ -11,7 +11,7 @@ import WebKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var containerView : UIView = nil
+    @IBOutlet var outerView: UIView!
     
     var webView: WKWebView?
     
